@@ -17,8 +17,8 @@ const productsHickvision = [
             description5: "Focus on human and vehicle targets classification based on deep learning",
             description6: "Audio and alarm interface available",
             description7: "Water and dust resistant (IP66) and vandal proof (IK10)",
-            description8: "",
-            description9: ""
+            description8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo.",
+            description9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo."
         },
         price: "3300",
         count: 1
@@ -40,9 +40,9 @@ const productsHickvision = [
             description4: "Clear imaging against strong back light due to 120 dB WDR technology",
             description5: "Focus on human and vehicle targets classification based on deep learning",
             description6: "Water and dust resistant (IP67)",
-            description7: "",
-            description8: "",
-            description9: ""
+            description7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo.",
+            description8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo.",
+            description9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo."
         },
         price: "5960",
         count: 1
@@ -63,10 +63,10 @@ const productsHickvision = [
             description3: "Clear imaging against strong back light due to 130 dB WDR technology",
             description4: "Focus on human and vehicle targets classification based on deep learning",
             description5: "24/7 colorful imaging",
-            description6: "",
-            description7: "",
-            description8: "",
-            description9: ""
+            description6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo.",
+            description7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo.",
+            description8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo.",
+            description9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo."
         },
         price: "6780",
         count: 1
@@ -89,8 +89,8 @@ const productsHickvision = [
             description5: "Supports face capture, detects, captures, grades and selects",
             description6: "faces in motion, and outputs the best face picture",
             description7: "Water and dust resistant (IP66)",
-            description8: "",
-            description9: ""
+            description8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo.",
+            description9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo."
         },
         price: "10900",
         count: 1
@@ -138,7 +138,7 @@ const productsHickvision = [
             description6: "Water and dust resistant (IP67)",
             description7: "Stability against category 12 typhoon",
             description8: "Support 4G (LTE-TDD/LTE-FDD/TD-SCDMA/EVDO) communication",
-            description9: ""
+            description9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, explicabo."
         },
         price: "13500",
         count: 1
