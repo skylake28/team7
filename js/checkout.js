@@ -194,7 +194,7 @@ function expYear () {
 
 submit.addEventListener('click', (e) => {
 if (e.target.classList.contains('btn-submit')) {
-    if (firstNameField() === true && lastNameField() === true && email() === true && address() === true && city() === true && inputTel() && country() && cardNumber() && cardCode() && expMonth() && expYear() === true)  {
+    if (firstNameField() === true && lastNameField() === true && email() === true && address() === true && city() === true && inputTel() && country() && cardNumber() && cardCode() && expMonth() === true)  {
         let formData =  {
             firstname: firstName.value,
             lastname: lastName.value,
