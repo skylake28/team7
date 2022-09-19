@@ -414,7 +414,10 @@ input:focus {
       padding: .5rem 2rem;
       border-top: 1px solid #777;
     }
-    
+   
+   .modalForm{
+      margin: auto 0 -20px auto !important;
+  }
   
   .footerModal .btn {
       margin-right: .5rem;
