@@ -702,7 +702,7 @@ section {
   font-family: 'Merriweather', serif;
 }
 #slider1{
-  background-image: url('https://jessxkodego.github.io/img/datacabling.jpeg');
+  background-image: url('https://raw.githubusercontent.com/skylake28/team7/main/img/datacabling.jpeg');
   background-size: 100% 100%;
   height: 600px;
   width: 100%;
@@ -710,7 +710,7 @@ section {
   margin-top: 20px;
   }
 #slider2{
-  background-image: url('https://jessxkodego.github.io/img/securitysystem.jpg');
+  background-image: url('https://raw.githubusercontent.com/skylake28/team7/main/img/securitysystem.jpg');
   background-size: 100% 100%;
   height: 600px;
   width: 100%;
@@ -718,7 +718,7 @@ section {
 
   }
   #slider3{
-    background-image: url('https://jessxkodego.github.io/img/wirelessnetwork.webp');
+    background-image: url('https://raw.githubusercontent.com/skylake28/team7/main/img/wirelessnetwork.webp');
     background-size: 100% 100%;
     height: 600px;
     width: 100%;
