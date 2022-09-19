@@ -68,10 +68,6 @@ select.country {
     border-color: #000000;
 }
 
-input.first_name, input.last_name {
-    border: 1px solid #ff523b;
-}
-
 .card_code {
     width: 50px;
 }
