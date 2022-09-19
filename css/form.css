@@ -1,6 +1,6 @@
 .container-wrapper {
     max-width: 100%;
-    margin: auto;
+    margin: 150px 0 auto;
 } 
 
 .cart-body {
@@ -118,6 +118,19 @@ input.first_name, input.last_name {
     color: white;
 }
 
+@media only screen and (max-width: 1070px) {
+    .container-wrapper {
+        max-width: 100%;
+        margin: 250px 0 auto;
+}
+
+@media only screen and (max-width: 300px) {
+    .container-wrapper {
+        max-width: 100%;
+        margin: 300px 0 auto;
+}
+    
+    
 @media only screen and (max-width: 850px) {
     form {
         display: flex;
