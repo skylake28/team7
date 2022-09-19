@@ -13,6 +13,12 @@ form {
     flex-direction: row-reverse;
 }
 
+ul .cards {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .panel-body {
     width: 400px;
     margin: 20px;
