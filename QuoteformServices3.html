@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://jessxkodego.github.io/css/formservices.css">
+
+</head>
+<style>
+  .button3 {
+    background-color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #051242;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:30%;
+    outline:none;
+}
+.button3:hover, .button2:hover{
+	background-color:#00B3DD}
+
+.rightside h3 span {
+    color: lightseagreen;}
+    .button2:hover, .button3:hover
+{
+	transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+.inputbox
+{
+    color:#051242;
+    font-weight: 900;
+}
+</style>
+<body>
+
+<div class="mainscreen">
+      <div class="card">
+        <div class="leftside">
+          <img
+            src="https://jessxkodego.github.io/img/wirelessnetwork.webp"
+            class="product"/>
+        </div>
+        <div class="rightside">
+          <form action="">
+            <h3>Switch<span>Eye</span></h3>
+            <h2>Quote and Payment Information</h2>
+            <p>Cardholder Name</p>
+            <input type="text" class="inputbox" name="name"  required/>
+            <p>Card Number</p>
+            <input type="number" class="inputbox" name="card_number" id="card_number" required />
+
+            <p>Card Type</p>
+            <select class="inputbox" name="card_type" id="card_type"  required>
+              <option value="">--Select a Card Type--</option>
+              <option value="Visa">Visa</option>
+              <option value="PNB">PNB</option>
+              <option value="PNB">Union Bank</option>
+              <option value="PNB">EastWest</option>
+              <option value="PNB">BDO</option>
+              <option value="PNB">BPI</option>
+            </select>
+            <p>Tyoe of Service</p>
+            <select class="inputbox" name="card_type" id="select1" required>
+              <option value="">--Select a Service Type--</option>
+              <option value="10,000 PHP" >GUEST ACCESS</option>
+              <option value="15,000 PHP " >LOCATION SERVICES</option>
+              <option value="3,000 PHP" >BUSINESS APPS</option>
+              <option value="7,000 PHP" >BYOD ON-BOARDING</option>
+
+            </select>
+
+
+            <p> Price:
+              <span class="output"></span>
+          </p>
+          <button name = "data" type="button" button onclick="getOption()" class="button3">Check Price</button>
+<div class="expcvv">
+
+
+
+
+            <p class="expcvv_text">Expiry</p>
+            <input type="date" class="inputbox" name="exp_date" id="exp_date"  required/>
+
+            <p class="expcvv_text2">CVV</p>
+            <input type="password" class="inputbox" name="cvv" id="cvv" required/>
+        </div>
+            <p></p>
+            <button type="submit" class="button2" button onClick="window.location.href='https://jessxkodego.github.io/formSuccess.html';" id="button2">Check Out Now</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+
+      function getOption() {
+          selectElement = document.querySelector('#select1');
+          output = selectElement.options[selectElement.selectedIndex].value;
+          document.querySelector('.output').textContent = output;
+      }
+document.querySelector('#button2').addEventListener('click', function(event) {
+  event.preventDefault();
+});
+      </script>
+</body>
+</html>

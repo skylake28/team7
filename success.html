@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Redstore | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logoSE.png" alt="logo" width="200px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" alt="" onclick="menutoggle()">
+        </div> 
+    </div>
+    <div class="container-wrapper">
+        <div class="row cart-head">
+            <div class="container">
+            <div class="row">
+                <p>Thank you for purchasing at SwitchEye, kindly see the summary of your payment and datailed list of items purchased.</p>
+                <br>
+            </div>
+            <div class="row2">
+                <!-- <p></p> -->
+
+            </div>
+            <div class="row3">
+                
+                <table class="customers">
+                        <th>Model</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                </table>
+                
+            </div>
+            </div>
+        </div>    
+        <div class="row cart-footer">
+                <!--------------Shopping Cart-------------->
+    <div class="productsCart-container hide " id="productsCartContID">
+        <div class="producstOnCart">
+            <div class="top">
+                <h3 class="titleModal">Cart</h3>
+                <p>Total Items: <span></span></p>
+                <span class="close" id="closeButton" >X</span>
+            </div>
+            <ul id="buyItems">
+                <h4 class="empty">Your shopping cart is empty</h4>
+                <!-- <li class="buyItem">
+                </li> -->
+            </ul>
+            <div class="footerModal">
+                <div id="totalPrices">
+                </div>   
+                <form action="">
+                    <button formaction="checkout.html" class="btn modal checkout hidden">Checkout!</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+        </div>
+            <script src="js/successful.js"></script>
+        </div>
+    </body>
+</html>
