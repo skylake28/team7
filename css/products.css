@@ -222,6 +222,10 @@ select:focus {
     color: #fff;
 }
 
+.cards {
+    margin-left: 20px;
+}
+
 /* -------Single product page-------- */
 .single-product {
     margin-top: 80px;
