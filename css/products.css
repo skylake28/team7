@@ -362,6 +362,7 @@ input:focus {
   
   .buyItem {
       list-style: none;
+      max-width: 300px;
       display: flex;
       flex-direction: row;
       justify-content: center;
