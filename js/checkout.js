@@ -208,7 +208,7 @@ if (e.target.classList.contains('btn-submit')) {
         localStorage.setItem('buyerInfo', JSON.stringify(formData));
         localStorage.removeItem('shoppingCart');
         updateShoppingCartHTML();
-	window.open("https://skylake28.github.io/team7/services3.html");
+	window.open("https://skylake28.github.io/team7/success.html");
     }
 }
 });
