@@ -329,6 +329,11 @@ transition: all .3s ease-out;}
 .list-products .list-products-item a img {
     max-width: 120px;
   }
+  .list-products img{
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+  }
   .owl-carousel{
     width: 50% !important;
   }
