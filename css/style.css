@@ -1110,21 +1110,7 @@ SERVICES1 to 3
       align-self: flex-start;
       padding-top: .5rem;
   }
-  
-  .footerModal {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: .5rem 2rem;
-      border-top: 1px solid #777;
-    }
-    
-  
-  .footerModal .btn {
-      margin-right: .5rem;
-  }
-  
-  
+
   .btn {
       padding: .5em 1em;
       border-radius: .3em;
