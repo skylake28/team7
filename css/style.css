@@ -293,11 +293,15 @@ transition: all .3s ease-out;}
  }
  #aboutus-container h1{
     color: #fff;
+    padding-top: 200px;
  }
  #aboutus-container p{
     color: #fff;
     font-size: 15px;
     line-height: 20px;
+ }
+ #aboutus-container img{
+  padding-top: 200px;
  }
  .aboutus-col-1{
     width: 40%;
