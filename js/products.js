@@ -160,8 +160,9 @@ const openShopCart = document.querySelector('.cart');
 openShopCart.addEventListener('click', () => {
 	const cart = document.querySelector('.productsCart-container');
 	cart.classList.toggle('hide');
-    document.querySelector('body').classList.toggle('stopScrolling');
-    updateShoppingCartHTML();
+	window.scrollTo(0, 0);
+	document.querySelector('body').classList.toggle('stopScrolling');
+	updateShoppingCartHTML();
 });
 
 //close shopping cart using closebutton
