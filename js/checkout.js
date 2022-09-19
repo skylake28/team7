@@ -208,7 +208,7 @@ if (e.target.classList.contains('btn-submit')) {
         localStorage.setItem('buyerInfo', JSON.stringify(formData));
         localStorage.removeItem('shoppingCart');
         updateShoppingCartHTML();
-        window.open('success.html', '_self"');
+        window.open('success.html');
 
     }
 }
