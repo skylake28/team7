@@ -11,7 +11,7 @@ const createCartHistory = document.querySelector('.createCartHistory');
 
 
 const cardYear = document.querySelector('.exp_year');
-for (let i = 0; i < 30; i++) {
+for (let i = 1; i < 30; i++) {
     let today = new Date();
     let yyyy  = today.getFullYear();
     let year = yyyy + i;
