@@ -88,7 +88,22 @@ select.country {
 .btn-submit {
     font-size: 16px;
     padding: 0.75em 1em;
-    margin-left: 20px;
+}
+
+#cancelOrderButton {
+    text-align: center !important;
+    background-color: rgb(204, 17, 17) !important;
+    font-family: 'Roboto', sans-serif !important;
+    width: 100% !important;
+    border-radius: 5px !important;
+    border: 0 !important;
+    cursor: pointer !important;
+    color: white !important;
+    font-size: 24px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    transition: all 0.3s !important;;
+    font-weight: 700 !important;;
 }
 
 /* table */
