@@ -120,14 +120,22 @@ input.first_name, input.last_name {
 
 @media only screen and (max-width: 1070px) {
     .container-wrapper {
-        max-width: 100%;
         margin: 250px 0 auto;
+}
+
+@media only screen and (max-width: 820px) {
+.container-wrapper {
+    margin: 300px 0 auto;
+}
+    
+@media only screen and (max-width: 475px) {
+.container-wrapper {
+    margin: 350px 0 auto;
 }
 
 @media only screen and (max-width: 300px) {
     .container-wrapper {
-        max-width: 100%;
-        margin: 300px 0 auto;
+        margin: 400px 0 auto;
 }
     
     
