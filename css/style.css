@@ -355,15 +355,17 @@ transition: all .3s ease-out;}
 #footer-container{
   background-color:#051242;
   color: #fff;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   position:absolute;
   align-content: center;
-  padding-left: 400px;
-  padding-right: 400px;
   padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  
 } 
 .footer-cont-1{
   width: 40%;
