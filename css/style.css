@@ -330,7 +330,7 @@ transition: all .3s ease-out;}
     max-width: 120px;
   }
  .owl-carousel img{
-    filter: grayscale(100%);
+    filter: grayscale(100%) !important;
 -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
   }
