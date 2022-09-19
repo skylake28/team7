@@ -1,0 +1,180 @@
+/*
+FONT CODES
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bebas+Neue&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Poppins:wght@200;400&family=Roboto:wght@100&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    font-family: 'Merriweather', serif;
+    height: 100%;
+}
+
+body{
+	background-color: #F5FAFF;
+  height: 100%;
+}
+
+
+/**************************************
+form services
+
+*************************************/
+.mainscreen
+{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    background-color: #051242;
+    background-image: url("https://w0.peakpx.com/wallpaper/506/235/HD-wallpaper-white-hexagon-geometric-shapes-white-aesthetic.jpg");
+
+}
+
+.card {
+	width: 60rem;
+    margin: auto;
+    background: white;
+    position:center;
+    align-self: center;
+    top: 50rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #3535358c;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.leftside {
+	background-image: url("https://www.123freevectors.com/ezoimgfmt/i2.wp.com/files.123freevectors.com/wp-content/original/113622-blue-diagonal-stripes-background-vector.jpg?w=800&q=95&ezimgfmt=rs:668x376/rscb2");
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+
+}
+
+.product {
+    object-fit: cover;
+	width: 20em;
+    height: 20em;
+
+}
+
+.rightside {
+    background-color: #051242;
+	width: 35rem;
+	border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem 2rem 3rem 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+p{
+    display:block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox
+{
+    color:#051242;
+	width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 0.6rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.1rem;
+    font-weight: bolder;
+  outline:none;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+
+.button2{
+    background-color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #051242;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:100%;
+
+    outline:none;
+}
+
+.button2:hover, .button3:hover
+{
+	transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card{
+        flex-direction: column;
+        width: auto;
+
+    }
+
+    .leftside{
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+      border-top-right-radius:0;
+      border-radius:0;
+    }
+
+    .rightside{
+        width:auto;
+        border-bottom-left-radius: 1.5rem;
+        padding:0.5rem 3rem 3rem 2rem;
+      border-radius:0;
+    }
+}
+.button3 {
+    background-color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #051242;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:30%;
+
+    outline:none;
+}
+.rightside h3 span {
+    color: lightseagreen;}
+/**************************************
+form services
+
+*************************************/
