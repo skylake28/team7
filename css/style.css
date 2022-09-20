@@ -1480,8 +1480,6 @@ margin:10px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  align-content: center;
-  display: flex;
   padding-left: 200px;
   padding-right: 200px;
   }
@@ -1501,10 +1499,10 @@ margin:10px;
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  .center-title-p {
+  .center-title-ser p {
     font-family: 'Merriweather', serif;
-    font-size: 13px;
-    color: #293a5c;
+    font-size: 15px;
+    color: #000;
     margin-top: 10px;
     margin-bottom: 20px;
   }
