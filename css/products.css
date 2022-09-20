@@ -198,6 +198,7 @@ select {
 }
 
 select:focus {
+    border-color: #04AA6D;
     outline: none;
 }
 
