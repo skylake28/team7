@@ -68,6 +68,12 @@ select.country {
     border-color: #000000;
 }
 
+select.country:hover, select.country:focus {
+    border-color: #04AA6D;
+    outline: none;
+}
+
+
 .card_code {
     width: 50px;
 }
