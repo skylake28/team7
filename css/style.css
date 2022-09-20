@@ -34,11 +34,6 @@ body{
     padding: 0;
     margin-top: 130px;
 }
-@media screen and (max-width: 800px) {
-  #maincontainer {
-    width: 100%;
-  }
-}
 #navbar {
   font-family: 'Roboto', sans-serif;
   overflow: visible;
@@ -49,11 +44,6 @@ body{
   width: 100%;
   top: 0;
   z-index: 99;
-}
-@media screen and (max-width: 800px) {
-  #navbar {
-    width: 100%;
-  }
 }
 /* Navigations Code */
 
