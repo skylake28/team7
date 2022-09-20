@@ -1443,7 +1443,7 @@ margin:10px;
 
 }
 
-.card-1 {
+.cards-list{
   text-align: center;
   background-color: #f9f9f9;
   padding: 30px 22px;
@@ -1461,3 +1461,14 @@ margin:10px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+#contactus-container-2 {
+  height:200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  }
