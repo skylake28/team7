@@ -1441,39 +1441,20 @@ margin:10px;
   color: #fff;
 }
 #services {
-  height:250px;
+  height:300px;
   color: #fff;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   align-content: center;
-  display: table;
+  display: flex;
   padding-left: 200px;
   padding-right: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
-
 }
 
-.cards-list{
-  text-align: center;
-  background-color: #f9f9f9;
-  padding: 30px 22px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  width: 30%;
-  max-height: 300px !important;
-  display:table-cell ;
-}
-
-.card-1 h3 {
-  color: #000;
-  font-size: 22px;
-  margin-bottom: 20px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
 
 #services-cont1 {
   height:200px;
@@ -1498,4 +1479,22 @@ margin:10px;
     color: #293a5c;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+  
+  #box1 {
+    height: 100%;
+    width: 30%;
+    background-color: orange;
+  }
+  
+   #box2 {
+    height: 100%;
+    width: 30%;
+    background-color: blue;
+  }
+  
+   #box3 {
+    height: 100%;
+    width: 30%;
+    background-color: yellow;
   }
