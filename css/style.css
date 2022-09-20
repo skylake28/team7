@@ -1564,3 +1564,21 @@ margin:10px;
   .inverted-6:hover {
     --_p: 134%;
   }
+
+  .inverted-2 {
+    background:
+      linear-gradient( 90deg, #051242 50%, #051242 0),
+      linear-gradient(-90deg, #051242  50%, #051242 0),
+      linear-gradient( 90deg, #051242 50%, #051242 0),
+      linear-gradient(-90deg, #051242 50%, #051242 0);
+    background-repeat: no-repeat;
+    background-size: 200% 51%;
+    background-position: top left, bottom right;
+    -webkit-background-clip: text, text, padding-box, padding-box;
+            background-clip: text, text, padding-box, padding-box;
+    transition: 0.8s
+  }
+  
+  .inverted-2:hover {
+    background-position: top right, bottom left;
+  }
