@@ -1419,3 +1419,40 @@ margin:10px;
         margin-top: 300px;
     }
 }
+
+/* Services */
+
+#services {
+  height:250px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  display: table;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+
+}
+
+.card-1 {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 30px 22px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 30%;
+  max-height: 300px !important;
+  display:table-cell ;
+}
+
+.card-1 h3 {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
