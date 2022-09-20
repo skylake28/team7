@@ -1541,3 +1541,30 @@ margin:10px;
     font-family: 'Merriweather', serif;
     text-align: center;
   }
+
+
+  .inverted-2 {
+    background:
+      linear-gradient( 90deg, #000  50%, #fff 0),
+      linear-gradient(-90deg, #000  50%, #fff 0),
+      linear-gradient( 90deg, #0000 50%, #000 0),
+      linear-gradient(-90deg, #0000 50%, #000 0);
+    background-repeat: no-repeat;
+    background-size: 200% 51%;
+    background-position: top left, bottom right;
+    -webkit-background-clip: text, text, padding-box, padding-box;
+            background-clip: text, text, padding-box, padding-box;
+    transition: 0.8s
+  }
+  
+  .inverted-2:hover {
+    background-position: top right, bottom left;
+  }
+  .inverted-3 {
+    background:
+      linear-gradient(-135deg, #000  50%, #fff 0) var(--_d, 100%)/250% no-repeat,
+      linear-gradient(-135deg, #0000 50%, #000 0) var(--_d, 100%)/250% no-repeat;
+    -webkit-background-clip: text, padding-box;
+            background-clip: text, padding-box;
+    transition: 0.8s
+  }
