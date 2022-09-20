@@ -1486,6 +1486,7 @@ margin:10px;
   #box1 {
     height: 100%;
     width: 30%;
+    padding: 10px;
     background-color:#F5FAFF;
     border:solid 2px #293a5c;
     border-radius: 5px;
@@ -1512,5 +1513,5 @@ margin:10px;
 
   #box1 img{
     max-width: 100%;
-    
+
   }
