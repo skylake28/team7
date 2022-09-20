@@ -283,7 +283,8 @@ transition: all .3s ease-out;}
  
  
  #aboutus-container {
-  height:600px;
+  height:500px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -296,7 +297,6 @@ transition: all .3s ease-out;}
  }
  #aboutus-container h1{
     color: #fff;
-    padding-top: 200px;
  }
  #aboutus-container p{
     color: #fff;
@@ -304,18 +304,16 @@ transition: all .3s ease-out;}
     line-height: 20px;
  }
  #aboutus-container img{
-  padding-top: 30px;
+  max-width: 100%;
  }
   
  .aboutus-col-1{
     width: 40%;
-    height: 568px;
     margin: 10px;
 
  }
  .aboutus-col-2{
     width: 45%;
-    height: 568px;
     margin: 10px;
  }
 
