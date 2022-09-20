@@ -127,7 +127,6 @@ function address () {
  function country () { 
 
     if(deliveryCountry.value.match("select country")) {
-        alert(deliveryCountry.value);
         return false;
     } else {
         return true;
