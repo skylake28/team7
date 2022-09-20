@@ -208,7 +208,7 @@ select:focus {
 
 .page-btn span {
     display: inline-block;
-    border: 1px solid #ff523b;
+    border: 1px solid #000;
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -220,6 +220,10 @@ select:focus {
 .page-btn span:hover {
     background: #ff523b;
     color: #fff;
+}
+
+.page-btn span:first-of-type {
+    background-color: #bbb;
 }
 
 .cards {
