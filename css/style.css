@@ -1567,8 +1567,8 @@ margin:10px;
 
   .inverted-2 {
     background:
-      linear-gradient( 90deg, #051242 50%, #051242 0),
-      linear-gradient(-90deg, #051242  50%, #051242 0),
+      linear-gradient( 90deg, #051242 50%, #fff 0),
+      linear-gradient(-90deg, #051242  50%, #fff 0),
       linear-gradient( 90deg, #051242 50%, #051242 0),
       linear-gradient(-90deg, #051242 50%, #051242 0);
     background-repeat: no-repeat;
