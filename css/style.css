@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif;
 * {
 	margin: 0;
 	padding: 0;
+  box-sizing: border-box;
 }
 
 html{
@@ -374,7 +375,6 @@ transition: all .3s ease-out;}
   padding-bottom: 20px;
   padding-left: 100px;
   padding-right: 100px;
-  
 } 
 .footer-cont-1{
   width: 40%;
