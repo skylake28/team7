@@ -1479,3 +1479,27 @@ margin:10px;
   padding-left: 200px;
   padding-right: 200px;
   }
+
+  #center-title-ser{
+    font-family: 'Merriweather', serif;
+  color: #1d42d9;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center;
+  }
+  .ser-center-title-h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #293a5c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .center-title-p {
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    color: #293a5c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
