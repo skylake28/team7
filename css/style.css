@@ -1569,8 +1569,8 @@ margin:10px;
     background:
       linear-gradient( 90deg, #051242 50%, #fff 0),
       linear-gradient(-90deg, #051242  50%, #fff 0),
-      linear-gradient( 90deg, #051242 50%, #051242 0),
-      linear-gradient(-90deg, #051242 50%, #051242 0);
+      linear-gradient( 90deg, #fff 50%, #051242 0),
+      linear-gradient(-90deg, #fff 50%, #051242 0);
     background-repeat: no-repeat;
     background-size: 200% 51%;
     background-position: top left, bottom right;
