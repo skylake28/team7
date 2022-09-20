@@ -1427,6 +1427,13 @@ margin:10px;
   background-size: 100% 100%;
   height: 300px;
 }
+#slider-services h1{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 60px;
+  color: #fff;
+}
 #services {
   height:250px;
   color: #fff;
