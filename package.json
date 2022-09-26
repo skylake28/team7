@@ -1,0 +1,23 @@
+{
+  "name": "team7",
+  "version": "1.0.0",
+  "description": "Switch Eye We aim to provide our dealers partners, systems integrators, and our home, office, and enterprise customers with the most advanced security equipment at the lowest possible prices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylake28/team7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylake28/team7/issues"
+  },
+  "homepage": "https://github.com/skylake28/team7#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
